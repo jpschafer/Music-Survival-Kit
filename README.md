@@ -1,2 +1,4 @@
 # Music-Survival-Kit
-Just random useful tutorials on how to manage different various computer things. 
+Survival Kit/Guide For Managing Music Libraries.
+
+See Wiki for tutorials and guides, check repo for useful scripts and regexes.
