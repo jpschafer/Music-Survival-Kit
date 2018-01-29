@@ -1,0 +1,9 @@
+
+
+
+# Finds a track title with a featured artist not closed with parentheses, does the following fixes:
+# 1. Add Parentheses as Closure
+# 2. Replace featuring keyword with preferred shorthand 'feat.'
+FEATURED_ARTIST_NO_PARENTHESES {
+  find ^([^\[\(\)\]]+)\s*((feat|ft).?\s+([^\[\(\)\]]+))$ replace with "$1 (feat. $4)"
+}
