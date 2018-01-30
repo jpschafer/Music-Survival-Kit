@@ -17,5 +17,5 @@ FEATURED_ARTIST_CLOSURE {
 
 # Finds a Track which has proper featured keyword, but incorrect Closure ie. {feat. artist}
 FEATURED_ARTIST_WRONG_CLOSURE {
-  
+  find ^([^\{\[\(\)\]]+)\s+(?:\{|\[)((feat.)\s+([^\[\(\)\]\}]+))(?:\}|\])$ replace with "$1 (feat. $4)"
 }
