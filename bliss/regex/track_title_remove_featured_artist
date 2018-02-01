@@ -1,0 +1,6 @@
+# Finds a Track with a featured artist and removes the featured artist. 
+# WARNING: THIS IS DESTRUCTIVE AND YOU WILL LOSE INFORMATION REGARDING THE FEATURED ARTIST!
+# MAKE SURE TO MAKE A BACKUP COPY IN CASE YOU EVER WANT THIS INFORMATION BACK!
+TRACK_TITLE_REMOVE_FEATURED_ARTIST {
+	find ^([^\[\(\)\]]+)\s*\(?((feat|ft|featuring)\.?\s+([^\[\(\)\]]+))\)?$ replace with "$1"
+}
