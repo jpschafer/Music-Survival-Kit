@@ -4,8 +4,8 @@
 // @version      2023-12-29
 // @description  Add Handy Search for Ben Dodson's Itunes Album art Lookup
 // @author       Jason Schafer
-// @match        http://192.168.1.10:3220/album/*/*/coverart?*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=1.10
+// @match        http://your-bliss-instance/0/album/*/*/coverart?*
+// @icon         https://www.blisshq.com/favicon.ico
 // @grant        none
 // ==/UserScript==
 setTimeout(function () {
