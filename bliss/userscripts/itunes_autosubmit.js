@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ben Dodson Auto Submit
 // @namespace    http://tampermonkey.net/
-// @version      2026-07-03
+// @version      2023-12-29
 // @description  Assists Bliss Image Search Helper
 // @author       You
 // @match        https://bendodson.com/projects/itunes-artwork-finder/*
@@ -41,5 +41,5 @@
         } else {
             console.log('No "Standard Resolution" link found.');
         }
-    }, 3000);
+    }, 1000);
 })();
