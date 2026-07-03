@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Ben Dodson Auto Submit
 // @namespace    http://tampermonkey.net/
-// @version      2023-12-29
+// @version      2026-07-03
 // @description  Assists Bliss Image Search Helper
 // @author       You
 // @match        https://bendodson.com/projects/itunes-artwork-finder/*
