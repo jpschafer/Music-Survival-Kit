@@ -25,7 +25,7 @@ setTimeout(function () {
 
     var htmlTemplate = '\
         <div class="col-md-3">\
-            <a href=\"https://bendodson.com/projects/itunes-artwork-finder/?entity=Album&query=${artistEncoded}%20${albumEncoded}" class="btn btn-default btn-block btn-google-search" target="_bliss-google-search">\
+            <a href=\"https://bendodson.com/projects/itunes-artwork-finder/?entity=album&query=${artistEncoded}%20${albumEncoded}" class="btn btn-default btn-block btn-google-search" target="_bliss-google-search">\
                 <i class="fa fa-apple"></i>&nbsp; iTunes Image search\
             </a>\
          </div>'
