@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Add Handy Search
 // @namespace    http://tampermonkey.net/
-// @version      2023-12-29
+// @version      2026-07-03
 // @description  Add Handy Search for Ben Dodson's Itunes Album art Lookup
 // @author       Jason Schafer
 // @match        http://your-bliss-instance/0/album/*/*/coverart?*
